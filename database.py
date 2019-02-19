@@ -2,7 +2,7 @@ import csv
 const_dict = {}
 
 # "曲名,譜面定数" 形式のcsvファイルを読みこむ
-fname = "test.csv"  # csvファイル名を指定
+fname = "sample.csv"  # csvファイル名を指定
 
 with open(fname, "r", encoding="utf-8") as f:
     reader = csv.reader(f)
