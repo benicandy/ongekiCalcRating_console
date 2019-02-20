@@ -33,7 +33,7 @@ def calc_m_eval(score, m_const):
     elif (score >= 990000 and score < 1000000):  # SS -
         m_eval = 1.0 + m_const + 0.5 * (score - 990000) / 10000
     elif (score >= 970000 and score < 990000):  # S -
-        m_eval =       m_const + 0.5 * (score - 970000) / 20000
+        m_eval =       m_const + 1.0 * (score - 970000) / 20000
     elif (score >= 940000 and score < 970000):  # AAA -
         # 知らない
         pass
